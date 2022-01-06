@@ -1,18 +1,26 @@
 Ext.onReady(function() {
 
-		Ext.create('Ext.container.Viewport', {
-			layout: 'fit',
-			items: [
-				{
-					title: 'Приложение на Ext JS 4',
-					html : '<h3>Добро пожаловать в мир Ext JS 4!</h3>'
-				},
-				// {
-				// 	xtype: 'personpanel'
-				// }
-			]
-		});
+		// Ext.create('Ext.container.Viewport', {
+		// 	layout: 'fit',
+		// 	items: [
+		// 		{
+		// 			title: 'Приложение на Ext JS 4',
+		// 			html : '<h3>Добро пожаловать в мир Ext JS 4!</h3>'
+		// 		},
+		// 		// {
+		// 		// 	xtype: 'personpanel'
+		// 		// }
+		// 	]
+		// });
 
+		// var mainId  = Ext.get('mainBody');
+		// alert('ID основного элемента DIV: ' + mainId.id);
+
+		// var elements = Ext.select('div#text1');
+		// //var elements = Ext.query('#text1');
+		// console.log(elements);
+		// // elements.setStyle('color', 'red');
+		// elements.hide();
 
 		// var jon = Ext.create('Classes.Manager');
 		// jon.getinfo();
